@@ -1,0 +1,41 @@
+
+
+
+.article-image-push{
+    margin-top: 600px;
+    }
+    .article-image-push.none{margin-top:40px;}
+
+.article-date {
+    font-size: 15px;
+    }
+
+.field.field-name-field-article-cover-image.field-type-image img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    clip: rect(0px,5000px,560px,0px);
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -100;
+    }
+
+.article-title {
+    font-size: 70px;
+    }
+
+.article-tagline{
+    font-size: 25px;
+    display: block;
+    font-weight: 200;
+    color: gray;
+    margin-bottom: 10px;
+    }
+
+
+@media (max-width: 768px) {
+    .article-image-push{margin-top: 75%;}
+    .article-image-push.none {margin-top: 0}
+    .article-title {font-size: 45px;}
+}

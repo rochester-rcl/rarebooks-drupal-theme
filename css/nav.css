@@ -1,0 +1,328 @@
+/* ----------------------------
+
+NAVIGATION STYLES
+-------------------------------
+This file contains styles that
+effect the navigation bar.
+
+Notes:
+Using .navbar-default (a standard
+bootstrap element) for the RCL header
+portion.
+
+-------------------------------*/
+
+
+
+
+/* CUSTOM STYLES
+-------------------------------*/
+
+/*div {outline: 1px solid red;}*/
+
+/*  UofR bar  */
+.uofrbar {
+    background-color: #021e47;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    /*position: fixed;*/
+    z-index: 1000;
+    top: 0;
+    }
+
+/* UofR logo in navbar */
+.navbar-brand-uofr-logo{
+    width: 210px;
+    height: auto;
+    }
+
+/* Search box grow on focus */
+.navbar-search-grow, .navbar .form-control {
+    width: 70px;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition:width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    }
+    .navbar-search-grow:focus{
+        width: 120px;
+        position: relative;
+        }
+
+/* Chat Online/Offline Toggle */
+.chat-offline{
+    cursor: default;
+    color: #546f99!important;
+    }
+
+/* Adds space when navbar switches to fixed */
+.navbar-spacer {
+    display: none;
+    height: 50px;
+    }
+    .navbar-spacer.show {
+      display: block;
+      }
+
+/* Section Navigation */
+.section-header {
+    background: rgba(34, 70, 137, 0.8);
+    /*background: rgba(0, 0, 0, 0.5);*/
+    border-top: 1px solid #466daf;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 35px;
+    }
+    .section-header.fixed {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        right: 0;
+        }
+    /* Adjustment for Admin menu  */
+    .logged-in .section-header.fixed {
+        top: 70px;
+        }
+    .section-header a{
+        /*color: gray;*/
+        }
+    .section-header a:hover{
+        color: #FFF;
+        }
+
+.page-title-header{
+    width: 40%;
+    float: left;
+    color: #afccfc;
+    font-size: 19px;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Cinzel', serif;
+    }
+
+.menu-container{
+    float: left;
+    width: 60%;
+    font-size: 14px;
+    padding: 7px 0px 0px 0px;
+    }
+.sub-nav-right ul{
+    float: right;
+    }
+
+section#block-menu-menu-lam-square,
+section#block-menu-menu-carlson-research-center {
+    float: right;
+    }
+section#block-menu-menu-lam-square ul li,
+section#block-menu-menu-carlson-research-center ul li {
+    display: inline;
+    }
+section#block-menu-menu-lam-square ul li a,
+section#block-menu-menu-carlson-research-center ul li a {
+    display: inline;
+    color: #afccfc;
+    padding: 7px 12px;
+    }
+
+/* OVERIDES
+Changing Bootstrap Specific Styles
+-------------------------------*/
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    /*background-color: #234b87;*/
+    background: transparent;
+    border-bottom: 2px solid #afccfc;;
+    }
+
+.nav>li>a {
+    /*padding: 10px 11px;*/
+    }
+
+/* Hidding the section navigation titles */
+section .block-title {
+    display: none;
+    }
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    }
+    .navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    }
+    /* Pushing nav for Admin_menu */
+    .logged-in .navbar.fixed {
+    top: 20px;
+    }
+
+/* Size and positioning for the RCL Logo */
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+    position: relative;
+    bottom: 3px;
+    }
+
+/* Navbar color for RCL bar */
+.navbar-default {
+    background-color: #234b87;
+    }
+
+/* Moving navbar down to fit uofrbar */
+.navbar-fixed-top {
+    top: 35px;
+    border-width: 0 0 1px;
+    }
+    .navbar-fixed-top.up { top: 0;}
+    .navbar-fixed-top,
+    .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+
+/* RCL Logo */
+.navbar-default .navbar-brand {
+    color: #777;
+    }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+    }
+
+.navbar-default .navbar-text {
+    color: #75a5ff;
+    }
+
+/* Nav link default color  */
+.navbar-default .navbar-nav > li > a {
+    color: #71a8fc;
+    }
+
+/* Nav link Hover/Focus color  */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+    border: none;
+    }
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+    border: none;
+    }
+
+/* Removing border on mobile menu */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+    box-shadow: none;
+    }
+
+/* Responsive hamburger menu modifications */
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #71a8fc;
+}
+.navbar-default .navbar-toggle .icon-bar:hover,
+.navbar-default .navbar-toggle .icon-bar:focus,  {
+  background-color: #FFF;
+}
+/* Removing border around hamburger menu */
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+  outline: none;
+}
+
+
+/*
+------------------------------------------------
+NAVBAR >> SEARCH BOX
+------------------------------------------------
+*/
+
+/* Changing the search box styles inside nav */
+.navbar .form-control {
+  background-color: #021e47;
+  border: none;
+  color: #FFF;
+  }
+  .navbar .form-control:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+/* Changing the placecolor inside navbar  */
+.navbar .form-control::-moz-placeholder {
+  color: #c4dbff;
+  opacity: 1;
+}
+.navbar .form-control:-ms-input-placeholder {
+  color: #c4dbff;
+}
+.navbar .form-control::-webkit-input-placeholder {
+  color: #c4dbff;
+}
+
+/* Removing padding from the searchbox.
+It was adding accessive padding-right. */
+.navbar-form {
+  padding: 0;
+}
+
+/* Better style for search box on mobile */
+@media (max-width: 760px) {
+  input.form-control.navbar-search-grow {
+      width: 90%;
+      margin: auto;
+  }
+  .menu-container{
+      font-size: 11px;
+      width: 70%;
+      }
+  .page-title-header{
+      width: 30%;
+      font-size: 16px;
+      }
+  section#block-menu-menu-lam-square ul li a,
+  section#block-menu-menu-carlson-research-center ul li a {
+      display: inline;
+      color: #afccfc;
+      padding: 5px 5px 6px 5px;
+      }
+
+}

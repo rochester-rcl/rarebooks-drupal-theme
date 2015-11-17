@@ -1,0 +1,95 @@
+/* ----------------------------
+
+COMMON STYLES
+-------------------------------
+These are the global base styles.
+-------------------------------*/
+
+
+/* CUSTOM STYLES
+-------------------------------*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/*div{outline: 1px solid red}*/
+
+body {
+}
+* {
+  margin:0;
+  padding:0;
+}
+
+.google-form{
+  background: transparent;
+  border: none;
+
+}
+
+.project-marker{
+  padding: 10px 20px;
+  background-color: #021e47;
+}
+
+/* OVERIDES
+-------------------------------*/
+
+.messages-overlay{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    }
+
+
+.content {font-size: 17px;}
+
+.print {display: none;}
+
+/* Sizes any images placed into the content field */
+.field.field-name-body.field-type-text-with-summary img {
+    width: 100%;
+    height: auto;
+    }
+
+/* hidding the section tax. term from the display */
+.field.field-name-field-section.field-type-taxonomy-term-reference.field-label-hidden {
+    display: none;
+    }
+
+
+.footer {
+    /* margin-top: 45px; */
+    padding-top: 35px;
+    padding-bottom: 36px;
+    /* border-top: 1px solid #E5E5E5; */
+    background-color: #e8e9d6;
+    width: 100%;
+    }
+
+
+
+/*  logged-in style adjustments
+--------------------------------------- */
+body.logged-in                        {margin-top: 19px;    }
+.logged-in .uofrbar                   {top: 29px!important; }
+body.logged-in .navbar-fixed-top      {top: 64px;           }
+/*.logged-in .main-container.container  {margin-top: 100px;   }*/
+.logged-in .event-image-push          {margin-top: 550px;   }
+
+
+@media (max-width: 890px) {
+  .logged-in .event-image-push{margin-top: 70%;}
+
+}

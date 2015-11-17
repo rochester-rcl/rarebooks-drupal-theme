@@ -1,0 +1,28 @@
+
+/* ----------------------------
+
+
+SITE COLORS
+-------------------------------
+This file contains the main colors
+used in the RCL theme. You can use
+the classes below or use the file
+as a referance.
+-------------------------------*/
+
+/*
+RCL Blue is the primary blue that
+should be used when element pertains
+to River Campus Libraries.
+
+EX: Top navigation bar
+
+*/
+
+/* RCL Colors */
+.rclblue                {color: #234b87;}
+.rcl-text-blue          {color: #71a8fc;}
+.rcl-overblue-muted     {color: #c4dbff;}
+
+
+.uofrblue               {color: #021e47;}

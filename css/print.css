@@ -1,0 +1,68 @@
+/* ----------------------------
+
+PRINT STYLES
+
+Directions: Add "noprint" class
+to anything that you want to hide
+during print. Add "print" class to
+anything you want to show during
+printing.
+
+-------------------------------*/
+
+
+.noprint        {display: none;}
+.print          {display: block;}
+.print-header   {padding-bottom: 0;margin-bottom: 0;}
+
+
+.print-uofr-logo-container {
+    float: right;
+    width: 40%;
+    }
+    .print-uofr-logo {
+    width: 150px;
+    height: auto;
+    float: right;
+    padding-top: 10px;
+    }
+
+.print-rcl-logo-container {
+    float: left;
+    width: 40%;
+    }
+    .print-rcl-logo {
+    width: 250px;
+    height: auto;
+    }
+
+.article-title {
+    font-size: 30px;
+    }
+
+.article-tagline {
+    font-size: 13px;
+    }
+
+.article-date {
+    font-size: 10px;
+    }
+
+h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    }
+
+.article-image-push, .event-image-push {
+    margin-top: 20px;
+    }
+
+.content {
+    font-size: 12px;
+    }
+
+.field.field-name-field-article-cover-image.field-type-image img, .field.field-name-field-event-cover-image.field-type-image img {
+    width: 100%;
+    height: auto;
+    position: static;
+    }

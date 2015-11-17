@@ -1,0 +1,20 @@
+
+
+
+.page-title-wrapper{
+    margin-top: 40px;
+    }
+
+.basic-page-title{
+    font-size: 50px;
+    border: none;
+    }
+
+.basic-page-content{
+    border: none;
+    }
+
+@media (max-width: 768px) {
+    .basic-page-title   {font-size: 45px;}
+
+}

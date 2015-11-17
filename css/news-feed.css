@@ -1,0 +1,27 @@
+
+
+
+
+
+/* Making feed images responsive */
+.cover-image-thumb img, .article-cover-image-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.news-events-thumb-row {
+    /*border-bottom: 1px solid lightgray;*/
+    margin: 10px;
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.event-title-thumb {
+    font-size: 27px;
+}
+
+@media (max-width: 768px) {
+  .news-events-thumb-row {width: 100%;margin: auto;}
+  .hp-content-feed{padding: 70px 15px 30px 15px;}
+}

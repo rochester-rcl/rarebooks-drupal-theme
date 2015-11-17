@@ -1,0 +1,45 @@
+/* ----------------------------
+
+MASTER STYLESHEET
+-------------------------------
+This is the master stylesheet.
+It contains all styles for this
+sub-theme.
+-------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+/* TABLE OF CONTENTS */
+
+/* 1. COMMON - Global styles*/
+@import url("common.css");
+
+/* 2. NAV - Navigation/header styles*/
+@import url("nav.css");
+
+/* 3. COLORS - Site colors */
+@import url("colors.css");
+
+/* 3. LANDING PAGE VIDEO s */
+@import url("landingpage-video.css");
+
+/* 4. EVENT PAGE  */
+@import url("event.css");
+
+/* 5. ADMIN EDITING SCREENS */
+@import url("editing.css");
+
+/* 6. NEWS AND EVENTS FEED */
+/*@import url("news-feed.css");*/
+
+/* 7. ARTICLE PAGE: News, Blog Post, Story */
+@import url("article.css");
+
+/* 8. All Pages: About us, FAQ */
+@import url("page.css");
+
+/* 9. Main Section Pages: Lam Square... */
+@import url("section.css");
+
+/* 10. Created special styles for CSRC */
+@import url("section-csrc.css");

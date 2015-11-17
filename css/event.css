@@ -1,0 +1,118 @@
+
+
+
+.no-registration-button {
+    background-color: #DE4D4E;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    z-index: 300;
+    }
+
+.event-location{
+    display: -webkit-box;
+    }
+
+.event-date {
+    font-size: 22px;
+    }
+
+.date-display-range {
+    font-size: 19px;
+    display: inline;
+    color: gray;
+    }
+
+.field.field-name-body.field-type-text-with-summary {
+    margin-top: 20px;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 20px;
+    }
+
+.img-responsive img{}
+
+
+
+/* Registration Button/Message */
+.register-button {
+    top: 480px;
+    position: absolute;
+    z-index: 300;
+    }
+    /* Overides the large button size */
+    .register-button .btn-lg {
+        padding: 16px 56px;
+        font-size: 18px;
+        background-color: #fed100;
+        color: #FFF;
+        border: none;
+        }
+    .register-button .btn-lg:hover {
+        background-color: #fed100;
+        }
+
+
+.field.field-name-field-event-cover-image.field-type-image img{
+    width: 100%;
+    height: auto;
+    clip: rect(0px,5000px,560px,0px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -100;
+    }
+
+.event-image-push{
+    margin-top: 600px;
+    }
+
+.event-title {
+    font-size: 70px;
+    font-family: 'Merriweather', serif;
+    }
+
+.event-tagline{
+    font-size: 20px;
+    display: block;
+    color: gray;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    }
+
+@media (max-width: 768px) {
+  .event-image-push{margin-top: 75%;}
+  .event-title {font-size: 45px;}
+
+  /* Registration Message */
+  .register-button .btn-lg{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: none;
+      border-radius: 0;
+      }
+  /* Registration Message */
+  .no-registration-button {
+      position: fixed;
+      bottom: 0;
+      top:auto;
+      left: 0;
+      right: 0;
+      width: 100%;
+      border: none;
+      }
+
+  .field.field-name-field-event-cover-image.field-type-image img{
+    width: 100%;
+    height: auto;
+    clip: rect(0px,5000px,560px,0px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -100;
+  }
+}

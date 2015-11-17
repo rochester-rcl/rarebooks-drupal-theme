@@ -1,0 +1,179 @@
+
+
+/* BUTTON */
+.section-csrc-btn-postion{
+    position: absolute;
+    top: 500px;
+    color: #FFF;
+    background-color: #021e47;
+    border: none;
+
+}
+
+
+.more_updates {
+  width: 100%;
+  display: block;
+  background: #9da4aa;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  height: 300px;
+  padding: 70px;
+  font-size: 34px;
+  border-top: 2px solid #fff;
+}
+
+.para-update{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section-csrc-footer{
+  margin-top: 0;
+}
+
+.copyright{
+  font-size: 12px;
+  float: right;
+}
+.social-icons{
+  display: block;
+  float: left;
+}
+.social-icons a{
+  color: black;
+  font-size: 25px;
+  padding-left: 13px;
+  opacity: 0.8;
+}
+.social-icons a:hover{
+  opacity: 1;
+}
+
+
+/*__________________________*/
+
+
+
+/* Updates block below the main cover image  */
+.block_view{
+  margin-top: 20px;
+}
+
+.section-csrc-title {
+    font-size: 39px;
+    font-family: 'Cinzel', serif;
+    color: #FFF;
+    position: absolute;
+    top: 130px;
+    }
+
+.section-csrc-tagline {
+    color: #afccfc;
+    font-size: 25px;
+    font-weight: 200;
+    position: absolute;
+    top: 200px;
+    max-width: 650px;
+    }
+
+.section-csrc-image-push {
+  margin-top: 700px;
+}
+
+.csrc-image .field.field-name-field-section-cover-image.field-type-image img{
+    width: 100%;
+    height: auto;
+    clip: rect(0px,5000px,530px,0px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: -100;
+    }
+
+/* Hiding the taxonomy term display */
+.field.field-name-field-section.field-type-taxonomy-term-reference.field-label-above {
+    display: none;
+    }
+
+
+
+
+
+
+@media (max-width: 1090px) {
+  .section-csrc-image-push {
+    margin-top: 65%;
+  }
+  .section-csrc-btn-postion {
+      display: none;
+      }
+}
+
+@media (max-width: 768px) {
+.section-csrc-title,
+.section-csrc-tagline,
+.section-csrc-btn-postion {
+    display: none;
+    }
+.view-lam-square-updates .views-field-field-article-tagline,
+.view-lam-square-updates .views-field-field-event-tagline {
+    display: none;
+    }
+
+.copyright{
+  float: left;
+  text-align: center;
+}
+.social-icons{
+  float: left;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.more_updates {
+  height: 155px;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.para-update{
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* VIEWS
+___________________________*/
+.view-lam-square-updates .views-row {
+    width: 100%;
+    min-height: 85px;
+    }
+
+/* TITLE */
+.view-lam-square-updates .views-field-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 5px 12px 25px;
+    font-family: 'Merriweather', serif;
+    }
+
+/* DATE */
+.view-lam-square-updates .views-field-field-article-date {
+    position: absolute;
+    bottom: 48px;
+    left: 22px;
+    background: rgba(0,0,0, 0.8);
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: gray;
+    font-size: 12px;
+    }
+
+}

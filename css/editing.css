@@ -1,0 +1,87 @@
+
+
+
+/* Tabs  */
+.tab-container{
+    position: absolute;
+    top: 570px;
+    left: 0;
+    right: 0;
+    }
+.tab-container-edit-screens{
+    margin-top: 60px;
+    padding: 0;
+    margin-bottom: 20px;
+    }
+
+.logged-in .event-image-push,
+.logged-in .article-image-push {
+    margin-top: 600px;
+    }
+
+/* Styling WYSIWYG filter options.
+Sits below the WYSIWYG editor.  */
+fieldset#edit-body-und-0-format{
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    color: gray;
+    }
+    select#edit-body-und-0-format--2 {
+        background: lightgray;
+        }
+
+input#edit-title {
+    font-size: 40px;
+    height: 66px;
+    }
+
+/* Event Cover Image Field */
+div#edit-field-event-cover-image,
+div#edit-field-article-cover-image {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #eeeeee;
+    }
+
+#edit-field-register {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #fff9dd;
+    }
+
+/* Event Dates  */
+table#field-event-dates-values {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    }
+
+#edit-field-location {
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    }
+
+.form-type-textfield.form-item-title.form-item.form-group {
+    border-top: 2px solid lightgray;
+    margin-top: 50px;
+    padding-top: 20px;
+    }
+
+/* Section radio button */
+.field-type-taxonomy-term-reference.field-name-field-section {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 27px 32px;
+    background-color: #eeeeee;
+    }
+
+
+@media (max-width: 768px) {
+    /* Tabs  */
+  .tab-container{
+      display: none;
+      }
+}
