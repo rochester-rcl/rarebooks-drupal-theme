@@ -58,10 +58,10 @@ body {
 .print {display: none;}
 
 /* Sizes any images placed into the content field */
-.field.field-name-body.field-type-text-with-summary img {
+/*.field.field-name-body.field-type-text-with-summary img {
     width: 100%;
     height: auto;
-    }
+    }*/
 
 /* hidding the section tax. term from the display */
 .field.field-name-field-section.field-type-taxonomy-term-reference.field-label-hidden {
