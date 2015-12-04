@@ -229,7 +229,7 @@
 
 
 <!--===== FOOTER =====-->
-<footer class="footer container">
+<footer class="noprint footer container">
   <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
   <div class="social-icons">
     <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook"></i></a>
