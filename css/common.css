@@ -57,6 +57,9 @@ body {
 
 .print {display: none;}
 
+/* This hides bullets in ULs */
+ul li { list-style: none; }
+
 /* Sizes any images placed into the content field */
 /*.field.field-name-body.field-type-text-with-summary img {
     width: 100%;

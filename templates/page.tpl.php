@@ -82,8 +82,19 @@
   $chat_status =  file_get_contents('http://us.libraryh3lp.com/presence/jid/urhomepage1/chat.libraryh3lp.com/text?'. $timestamp);
 ?>
 
+<!-- Print Header -->
+<div class="container print-header print">
+  <div class="print-rcl-logo-container">
+   <img class="print-rcl-logo" alt="River Campus Libraries" src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme');?>/images/logo-rcl-print.png" />
+  </div>
+   <div class="print-uofr-logo-container">
+     <img class="print-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme');?>/images/logo-uofr-print.png" />
+   </div>
+</div>
+
+
 <!-- UofR bar -->
-<div class="uofrbar">
+<div class="noprint uofrbar">
  <div class="container">
    <!-- UofR Logo -->
    <a class="" href="#">
@@ -92,7 +103,7 @@
  </div>
 </div>
 <!-- RCL Header / Nav  -->
-<header id="navbar" role="banner" class="navbar navbar-default">
+<header id="navbar" role="banner" class="noprint navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <!-- If user uploads a custom logo-->
@@ -188,7 +199,7 @@
 
 <!--===== TABS =====-->
     <?php if (!empty($tabs)): ?>
-      <div class="tab-container-edit-screens">
+      <div class="noprint tab-container-edit-screens">
       <?php print render($tabs); ?>
     </div>
     <?php endif; ?>
@@ -230,7 +241,7 @@
 
 <!--===== FOOTER =====-->
 <footer class="noprint footer container">
-  <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
+  <!-- <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div> -->
   <div class="social-icons">
     <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook"></i></a>
     <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter"></i></a>
