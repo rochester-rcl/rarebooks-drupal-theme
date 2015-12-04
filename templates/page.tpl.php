@@ -148,12 +148,10 @@
 </header>
 <div class="navbar-spacer"></div>
 
-<!-- Section Sub Nav -->
-<?php if(!empty($node->field_section['und'][0]['taxonomy_term'])): ?>
 <div class="section-header noprint">
   <div class="container">
     <div class="page-title-header">
-    <?php print $node->field_section['und'][0]['taxonomy_term']->name ?>
+      Rare Books, Special Collections and Preservation
     </div>
     <!-- Nav links -->
     <div class="menu-container">
@@ -163,7 +161,6 @@
     </div>
   </div>
 </div>
-<?php endif;  ?>
 
 
 

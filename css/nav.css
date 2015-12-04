@@ -94,34 +94,30 @@ portion.
         }
 
 .page-title-header{
-    width: 40%;
+    width: 50%;
     float: left;
     color: #afccfc;
-    font-size: 19px;
+    font-size: 16px;
     padding: 5px 0px 5px 0px;
     font-family: 'Cinzel', serif;
     }
 
 .menu-container{
     float: left;
-    width: 60%;
+    width: 50%;
     font-size: 14px;
     padding: 7px 0px 0px 0px;
     }
 .sub-nav-right ul{
     float: right;
     }
-
-section#block-menu-menu-lam-square,
-section#block-menu-menu-carlson-research-center {
+section#block-menu-menu-rbscp-subnav {
     float: right;
     }
-section#block-menu-menu-lam-square ul li,
-section#block-menu-menu-carlson-research-center ul li {
+section#block-menu-menu-rbscp-subnav ul li {
     display: inline;
     }
-section#block-menu-menu-lam-square ul li a,
-section#block-menu-menu-carlson-research-center ul li a {
+section#block-menu-menu-rbscp-subnav li a {
     display: inline;
     color: #afccfc;
     padding: 7px 12px;

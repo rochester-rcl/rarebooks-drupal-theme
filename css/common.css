@@ -60,6 +60,18 @@ body {
 /* This hides bullets in ULs */
 ul li { list-style: none; }
 
+/* This added margin to OLs */
+ol { margin-left: 45px;}
+
+/* select alternating items starting with the second item */
+ol li:nth-of-type(2n) {
+  background: lightslategrey;
+}
+
+/* Hides comment */
+li.comment-add.first.last {display: none;}
+li.comment_forbidden.first.last {display: none;}
+
 /* Sizes any images placed into the content field */
 /*.field.field-name-body.field-type-text-with-summary img {
     width: 100%;
