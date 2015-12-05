@@ -4,7 +4,7 @@
 
 An adaptation of the [RCL Drupal Theme](https://github.com/rochester-rcl/rcl_drupal_theme)for the Rare Books website
 
-### Table of Contents
+## Table of Contents
 1. Installation Instructions (Below)
 2. [Module Installation](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/install_modules)
 3. [Templates](https://github.com/rochester-rcl/rcl_drupal_theme/tree/master/templates)
