@@ -122,6 +122,14 @@ section#block-menu-menu-rbscp-subnav li a {
     color: #afccfc;
     padding: 7px 12px;
     }
+.menu-container .nav>li>a:hover,
+.menu-container .nav>li>a:focus {
+    text-decoration: none;
+    background: transparent;
+    border-bottom: 2px solid #afccfc;
+    }
+
+
 
 /* FOOTER */
 
@@ -169,6 +177,20 @@ section#block-menu-menu-rbscp-subnav li a {
     opacity: 1;
     }
 
+
+/* BACK TO TOP BUTTON  */
+.back-to-top{
+    display: none;
+    }
+    .back-to-top.on{
+        display: block;
+        background: rgba(34, 70, 137, 0.8);
+        padding: 40px;
+        }
+
+
+
+
 /* OVERIDES
 Changing Bootstrap Specific Styles
 -------------------------------*/
@@ -178,7 +200,6 @@ Changing Bootstrap Specific Styles
     text-decoration: none;
     /*background-color: #234b87;*/
     background: transparent;
-    border-bottom: 2px solid #afccfc;;
     }
 
 .nav>li>a {
