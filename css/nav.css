@@ -123,6 +123,52 @@ section#block-menu-menu-rbscp-subnav li a {
     padding: 7px 12px;
     }
 
+/* FOOTER */
+
+.footer-links {
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: right;
+    }
+    .footer-links section#block-menu-menu-rbscp-footer-menu ul li,
+    .footer-links section#block-menu-menu-rbscp-footer-menu li a {
+        display: inline;
+        padding: 3px 4px;
+        font-size: 14px;
+        text-align: right;
+        }
+    .footer-links section#block-menu-menu-rbscp-footer-menu ul li {
+        border-right: 1px solid lightgray;
+        }
+    .footer-links section#block-menu-menu-rbscp-footer-menu li.last.leaf{
+        border-right: none;
+        }
+    .footer-links section#block-menu-menu-rbscp-footer-menu li a:hover {
+        border: none;
+        }
+.social-icons {
+    display: block;
+    float: left;
+    width: 50%;
+    }
+.copyright{
+    font-size: 12px;
+    float: right;
+    margin-top: 30px;
+    padding-right: 6px;
+    color: #9b937d;
+    }
+.social-icons a{
+    color: black;
+    font-size: 25px;
+    padding-left: 13px;
+    opacity: 0.8;
+    }
+.social-icons a:hover{
+    opacity: 1;
+    }
+
 /* OVERIDES
 Changing Bootstrap Specific Styles
 -------------------------------*/

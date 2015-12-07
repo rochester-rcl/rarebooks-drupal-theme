@@ -238,14 +238,17 @@
 
 <!--===== FOOTER =====-->
 <footer class="noprint footer container">
-  <!-- <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div> -->
   <div class="social-icons">
     <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook"></i></a>
     <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter"></i></a>
     <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube"></i></a>
     <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
   </div>
-  <?php print render($page['footer']); ?>
+  <div class="footer-links">
+    <?php print render($page['footer']); ?>
+  </div>
+  <div class="clear"></div>
+    <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
 </footer>
 
 
