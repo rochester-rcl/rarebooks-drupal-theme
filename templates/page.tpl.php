@@ -82,6 +82,16 @@
   $chat_status =  file_get_contents('http://us.libraryh3lp.com/presence/jid/urhomepage1/chat.libraryh3lp.com/text?'. $timestamp);
 ?>
 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Print Header -->
 <div class="container print-header print">
   <div class="print-rcl-logo-container">
@@ -148,13 +158,13 @@
 </header>
 <div class="navbar-spacer"></div>
 
-<div class="section-header noprint">
+<div class="section-header">
   <div class="container">
     <div class="page-title-header">
       Rare Books, Special Collections and Preservation
     </div>
     <!-- Nav links -->
-    <div class="menu-container">
+    <div class="menu-container noprint">
       <ul class="sub-nav">
         <?php print render($page['section_header']);?>
       </ul>
@@ -252,7 +262,14 @@
   </div>
   <div class="clear"></div>
     <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
-</footer>
+
+    <!-- <div class="fb-page"
+  data-href="https://www.facebook.com/rivercampuslibraries"
+  data-width="380"
+  data-hide-cover="false"
+  data-show-facepile="false"
+  data-show-posts="false"></div>
+</footer> -->
 
 
 <script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/chat.js'; ?>"></script>

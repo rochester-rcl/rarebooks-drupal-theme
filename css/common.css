@@ -64,9 +64,9 @@ ul li { list-style: none; }
 ol { margin-left: 45px;}
 
 /* select alternating items starting with the second item */
-ol li:nth-of-type(2n) {
+/*ol li:nth-of-type(2n) {
   background: lightslategrey;
-}
+}*/
 
 /* Hides comment */
 li.comment-add.first.last {display: none;}
@@ -81,6 +81,13 @@ li.comment_forbidden.first.last {display: none;}
 /* hidding the section tax. term from the display */
 .field.field-name-field-section.field-type-taxonomy-term-reference.field-label-hidden {
     display: none;
+    }
+
+
+.field.field-name-body.field-type-text-with-summary {
+    margin-top: 0;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 20px;
     }
 
 
