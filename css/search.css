@@ -1,0 +1,15 @@
+.field.field-name-title.field-type-ds h4 {
+    margin: 15px 0 0 0;
+}
+.field.field-name-search-snippet.field-type-ds {
+    color: #545454;
+}
+
+.field.field-name-search-snippet.field-type-ds strong {
+    background-color: #feffe3;;
+    padding: 0px 4px;
+}
+@media (min-width: 890px) {
+  .field.field-name-search-snippet.field-type-ds {width: 70%;}
+
+}

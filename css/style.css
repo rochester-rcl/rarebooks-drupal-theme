@@ -29,8 +29,8 @@ sub-theme.
 /* 5. ADMIN EDITING SCREENS */
 @import url("editing.css");
 
-/* 6. NEWS AND EVENTS FEED */
-/*@import url("news-feed.css");*/
+/* 6. Search */
+@import url("search.css");
 
 /* 7. ARTICLE PAGE: News, Blog Post, Story */
 @import url("article.css");
