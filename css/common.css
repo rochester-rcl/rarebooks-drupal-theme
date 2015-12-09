@@ -63,6 +63,10 @@ ul li { list-style: none; }
 /* This added margin to OLs */
 ol { margin-left: 45px;}
 
+.site-breadcrumb ol{
+  margin-left: 0;
+}
+
 /* select alternating items starting with the second item */
 /*ol li:nth-of-type(2n) {
   background: lightslategrey;
@@ -86,9 +90,9 @@ li.comment_forbidden.first.last {display: none;}
 
 .field.field-name-body.field-type-text-with-summary {
     margin-top: 0;
-    border-top: 1px solid #E5E5E5;
     padding-top: 20px;
     }
+
 
 
 .footer {
@@ -110,6 +114,13 @@ body.logged-in .navbar-fixed-top      {top: 64px;           }
 /*.logged-in .main-container.container  {margin-top: 100px;   }*/
 .logged-in .event-image-push          {margin-top: 550px;   }
 
+
+/* Removes the URL from the print view */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
 
 @media (max-width: 890px) {
   .logged-in .event-image-push{margin-top: 70%;}

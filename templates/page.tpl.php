@@ -161,7 +161,7 @@
 <div class="section-header">
   <div class="container">
     <div class="page-title-header">
-      Rare Books, Special Collections and Preservation
+      <a href="http://www.library.rochester.edu/rbscp">Rare Books, Special Collections and Preservation</a>
     </div>
     <!-- Nav links -->
     <div class="menu-container noprint">
@@ -211,6 +211,12 @@
     </div>
     <?php endif; ?>
 
+<!-- Breadcrumb  -->
+    <?php if (!empty($breadcrumb)): ?>
+      <div class="site-breadcrumb noprint">
+        <?php print render($breadcrumb); ?>
+      </div>
+    <?php endif; ?>
 
 <!-- Page title  -->
       <?php if (!empty($title)): ?>

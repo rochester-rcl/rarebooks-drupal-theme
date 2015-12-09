@@ -16,24 +16,35 @@ printing.
 .print-header   {padding-bottom: 0;margin-bottom: 0;}
 
 
+a[href]:after {
+  content: none !important;
+}
+
+.basic-page-title{
+    margin-top: 20px;
+    font-size: 25px;
+    font-size: bold;
+    }
+
+
 .print-uofr-logo-container {
     float: right;
-    width: 40%;
+    width: 50%;
     }
     .print-uofr-logo {
     width: 150px;
     height: auto;
     float: right;
-    padding-top: 10px;
     }
 
 .print-rcl-logo-container {
     float: left;
-    width: 40%;
+    width: 50%;
     }
     .print-rcl-logo {
     width: 150px;
     height: auto;
+    padding-bottom: 10px;
     }
 
 .article-title {

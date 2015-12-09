@@ -94,13 +94,19 @@ portion.
         }
 
 .page-title-header{
-    width: 50%;
-    float: left;
-    color: #afccfc;
-    font-size: 16px;
-    padding: 5px 0px 5px 0px;
-    font-family: 'Cinzel', serif;
+  width: 50%;
+  float: left;
+  color: #afccfc;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 7px 0px 5px 0px;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Merriweather', serif;
     }
+    .page-title-header a{
+        text-decoration: none;
+        color: #FFF;
+        }
 
 .menu-container{
     float: left;
@@ -122,6 +128,9 @@ section#block-menu-menu-rbscp-subnav li a {
     color: #afccfc;
     padding: 7px 12px;
     }
+    section#block-menu-menu-rbscp-subnav li a:hover {
+        color: #FFF;
+        }
 .menu-container .nav>li>a:hover,
 .menu-container .nav>li>a:focus {
     text-decoration: none;
@@ -381,6 +390,7 @@ It was adding accessive padding-right. */
       width: 30%;
       font-size: 16px;
       }
+
   section#block-menu-menu-lam-square ul li a,
   section#block-menu-menu-carlson-research-center ul li a {
       display: inline;
