@@ -9,7 +9,58 @@
     background-color: #feffe3;;
     padding: 0px 4px;
 }
+
+
+.form-type-textfield.form-item-keys.form-item.form-group label {
+    display: none;
+}
+
+
+form#search-form .form-control{
+      height: 50px;
+      padding: 10px 15px;
+      font-size: 20px;
+      border-radius: 4px 0 0 4px;
+}
+
+
+form#search-form button#edit-submit{
+      padding: 6px 30px;
+      height: 50px;
+}
+
+button#edit-submit {
+    /* margin-left: 0px; */
+    /* float: right; */
+    position: relative;
+    /* bottom: 34px; */
+    right: 5px;
+    border-radius: 0px 5px 5px 0px;
+    }
+
+    .form-type-textfield.form-item-keys.form-item.form-group {
+        width: 600px;
+    }
+
+.ds-search-extra {
+    color: gray;
+    }
+    
 @media (min-width: 890px) {
   .field.field-name-search-snippet.field-type-ds {width: 70%;}
+
+}
+@media (max-width: 768px) {
+  .form-type-textfield.form-item-keys.form-item.form-group {
+      width: 95%;
+  }
+  button#edit-submit {
+       margin-right: 0px;
+     float: right;
+      position: relative;
+      right: 0px;
+       bottom: 50px;
+      }
+
 
 }
