@@ -171,9 +171,6 @@
     </div>
   </div>
 </div>
-
-
-
 <!--======= /HEADER  ========-->
 
 
@@ -268,14 +265,6 @@
   </div>
   <div class="clear"></div>
     <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
-
-    <!-- <div class="fb-page"
-  data-href="https://www.facebook.com/rivercampuslibraries"
-  data-width="380"
-  data-hide-cover="false"
-  data-show-facepile="false"
-  data-show-posts="false"></div>
-</footer> -->
 
 
 <script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/chat.js'; ?>"></script>
