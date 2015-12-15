@@ -171,6 +171,7 @@
     </div>
   </div>
 </div>
+
 <!--======= /HEADER  ========-->
 
 
@@ -260,12 +261,14 @@
     <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube"></i></a>
     <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
   </div>
-  <div class="footer-links">
-    <?php print render($page['footer']); ?>
-  </div>
-  <div class="clear"></div>
-    <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
 
+  <div class="clear"></div>
+  <div class="copyright-container">
+    <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
+      <div class="footer-links">
+        <?php print render($page['footer']); ?>
+      </div>
+  </div>
 
 <script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/chat.js'; ?>"></script>
 <script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/nav.js'; ?>"></script>
