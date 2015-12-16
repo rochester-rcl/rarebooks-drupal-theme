@@ -179,8 +179,7 @@
 
 
 
-<div class="main-container container">
-
+<div class="container">
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead">Site slogan</p>
@@ -256,21 +255,26 @@
 <!--===== FOOTER =====-->
 <footer class="noprint footer">
   <div class="container">
-    <div class="social-icons">
-      <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube"></i></a>
-      <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
+    <!-- Left Col -->
+    <div class="footer-left">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/rclibraries"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/user/RCLibraries"><i class="fa fa-youtube-square"></i></a>
+        <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
+      </div>
+      <!-- Copyright  -->
+        <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
+          University of Rochester | River Campus Libraries <br>
+          Rare Books, Special Collections and Preservation
+        </div>
+          <div class="footer-links">
+            <?php print render($page['footer']); ?>
+          </div>
     </div>
 
-    <div class="clear"></div>
-    <div class="copyright-container">
-      <div class="copyright">Copyright © 1998-2015 University of Rochester Libraries. All Rights Reserved</div>
-        <div class="footer-links">
-          <?php print render($page['footer']); ?>
-        </div>
-    </div>
-  </div>
+</div>
+
 </footer>
 
 <script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/chat.js'; ?>"></script>

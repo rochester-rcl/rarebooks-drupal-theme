@@ -13,6 +13,11 @@
     padding: 0;
     margin-bottom: 20px;
     }
+    @media (max-width: 760px) {
+      .tab-container-edit-screens {
+          margin-top: 80px;
+          }
+    }
 
 .logged-in .event-image-push,
 .logged-in .article-image-push {

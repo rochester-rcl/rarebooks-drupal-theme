@@ -140,51 +140,6 @@ section#block-menu-menu-rbscp-subnav li a {
 
 
 
-/* FOOTER */
-
-.footer-links {
-    width: 50%;
-    float: left;
-    display: block;
-    text-align: right;
-    }
-    .footer-links section#block-menu-menu-rbscp-footer-menu ul li,
-    .footer-links section#block-menu-menu-rbscp-footer-menu li a {
-        display: inline;
-        padding: 3px 3px;
-        font-size: 12px;
-        text-align: right;
-        }
-    .footer-links section#block-menu-menu-rbscp-footer-menu ul li {
-        border-right: 1px solid lightgray;
-        }
-    .footer-links section#block-menu-menu-rbscp-footer-menu li.last.leaf{
-        border-right: none;
-        }
-    .footer-links section#block-menu-menu-rbscp-footer-menu li a:hover {
-        border: none;
-        }
-.social-icons {
-    display: block;
-    float: left;
-    width: 50%;
-    }
-.copyright{
-    font-size: 12px;
-    float: right;
-    margin-top: 7px;
-    padding-right: 6px;
-    color: #9b937d;
-    }
-.social-icons a{
-    color: black;
-    font-size: 25px;
-    padding-left: 13px;
-    opacity: 0.8;
-    }
-.social-icons a:hover{
-    opacity: 1;
-    }
 
 
 /* BACK TO TOP BUTTON  */
@@ -281,7 +236,7 @@ section .block-title {
 
 /* Nav link default color  */
 .navbar-default .navbar-nav > li > a {
-    color: #71a8fc;
+    color: #b1d2ff;
     }
 
 /* Nav link Hover/Focus color  */
@@ -382,13 +337,30 @@ It was adding accessive padding-right. */
       width: 90%;
       margin: auto;
   }
+  .uofrbar{
+      text-align: center;
+      height: 30px;
+      }
+      .navbar-brand-uofr-logo{
+          width: 165px;
+          height: auto;
+          }
   .menu-container{
       font-size: 11px;
-      width: 70%;
+      width: 100%;
       }
+      .menu-container ul{
+          float: left;
+          }
   .page-title-header{
-      width: 30%;
-      font-size: 16px;
+      /*width: 30%;*/
+      width: 100%;
+      font-size: 14px;
+      text-align: left;
+      }
+  .section-header {
+      border-top: 1px solid #466daf;
+      height: 65px;
       }
 
   section#block-menu-menu-lam-square ul li a,

@@ -41,5 +41,5 @@ sub-theme.
 /* 9. Main Section Pages: Lam Square... */
 @import url("section.css");
 
-/* 10. Created special styles for CSRC */
-@import url("section-csrc.css");
+/* 10. footer */
+@import url("footer.css");

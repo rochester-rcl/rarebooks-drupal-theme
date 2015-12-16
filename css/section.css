@@ -118,27 +118,7 @@ ___________________________*/
   margin-bottom: 10px;
 }
 
-.section-footer{
-  margin-top: 0;
-}
 
-.copyright{
-  font-size: 12px;
-  float: right;
-}
-.social-icons{
-  display: block;
-  float: left;
-}
-.social-icons a{
-  color: black;
-  font-size: 25px;
-  padding-left: 13px;
-  opacity: 0.8;
-}
-.social-icons a:hover{
-  opacity: 1;
-}
 
 
 /*__________________________*/

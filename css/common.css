@@ -10,35 +10,34 @@ These are the global base styles.
 -------------------------------*/
 
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
 
 /*div{outline: 1px solid red}*/
 
 body {
-}
+    }
 * {
-  margin:0;
-  padding:0;
-}
+    margin:0;
+    padding:0;
+    }
 
 .google-form{
-  background: transparent;
-  border: none;
-
-}
+    background: transparent;
+    border: none;
+    }
 
 .project-marker{
-  padding: 10px 20px;
-  background-color: #021e47;
-}
+    padding: 10px 20px;
+    background-color: #021e47;
+    }
 
 /* OVERIDES
 -------------------------------*/
@@ -124,5 +123,4 @@ body.logged-in .navbar-fixed-top      {top: 64px;           }
 
 @media (max-width: 890px) {
   .logged-in .event-image-push{margin-top: 70%;}
-
 }
