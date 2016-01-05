@@ -255,7 +255,28 @@
 <!--===== FOOTER =====-->
 <footer class="noprint footer">
   <div class="container">
-    <!-- Left Col -->
+
+    <!-- Right Side of Footer -->
+      <div class="footer-right">
+        <div class="address">
+          <p>
+            Rare Books Special Collections Preservation <br>
+            Rush Rhees Library <br>
+            Second Floor, Room 225 <br>
+            755 Library Road <br>
+            University of Rochester	<br>
+            Rochester, NY 14627-0055 <br>
+          </p>
+          <p>
+            Phone: (585) 275-4477 <br>
+            Fax: (585) 273-1032 <br>
+            <a href="mailto:rarebks@library.rochester.edu">rarebks@library.rochester.edu</a>
+          </p>
+        </div>
+      </div>
+
+
+    <!-- Left Side of Footer -->
     <div class="footer-left">
       <div class="social-icons">
         <a href="https://www.facebook.com/rivercampuslibraries"><i class="fa fa-facebook-square"></i></a>
@@ -264,14 +285,16 @@
         <a href="https://www-flickr-com.pc181.lib.rochester.edu/photos/carlsonlibrary/"><i class="fa fa-flickr"></i></a>
       </div>
       <!-- Copyright  -->
-        <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
-          University of Rochester | River Campus Libraries <br>
-          Rare Books, Special Collections and Preservation
-        </div>
-          <div class="footer-links">
-            <?php print render($page['footer']); ?>
-          </div>
+      <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
+        University of Rochester | River Campus Libraries <br>
+        Rare Books, Special Collections and Preservation
+      </div>
+      <div class="footer-links">
+        <?php print render($page['footer']); ?>
+      </div>
     </div>
+
+
 
 </div>
 

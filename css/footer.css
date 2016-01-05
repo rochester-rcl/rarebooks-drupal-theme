@@ -1,10 +1,15 @@
 
 
 
-.footer-left{
+.footer-left,
+.footer-right{
   width: 50%;
+  float: right;
 }
 
+.footer-right{
+  text-align: right;
+}
 .section-footer{
     margin-top: 0;
     }
@@ -14,13 +19,15 @@
     margin-top: 7px;
     color: #9b937d;
     }
-
+.address {
+    color: #736753;
+    }
 /* SOCIAL ICONS */
 .social-icons{
   display: block;
 }
 .social-icons a{
-  color: #9b937d;
+  color: #736753;
   font-size: 25px;
   padding-right: 13px;
   opacity: 0.8;
@@ -61,10 +68,15 @@
 
 @media (max-width: 768px) {
   .footer-left,
+  .footer-right,
   .footer-links,
   .copyright,
   .social-icons {
     width: 100%;
     text-align: center;
+  }
+
+  .footer-right{
+    margin-bottom: 40px;
   }
 }
